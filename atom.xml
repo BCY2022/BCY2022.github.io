@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://BCY2022.github.io</id>
+    <title>Bcy&apos;s Blog</title>
+    <updated>2022-04-02T11:09:10.966Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://BCY2022.github.io"/>
+    <link rel="self" href="https://BCY2022.github.io/atom.xml"/>
+    <subtitle>夜空的星，是一点美好</subtitle>
+    <logo>https://BCY2022.github.io/images/avatar.png</logo>
+    <icon>https://BCY2022.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, Bcy&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Hello World!]]></title>
+        <id>https://BCY2022.github.io/post/hello-world/</id>
+        <link href="https://BCY2022.github.io/post/hello-world/">
+        </link>
+        <updated>2022-04-02T11:07:13.000Z</updated>
+        <content type="html"><![CDATA[<p>Bcy的Blog开张啦！Hello World！！！</p>
+]]></content>
+    </entry>
+</feed>
