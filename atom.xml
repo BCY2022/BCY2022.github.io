@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://BCY2022.github.io</id>
     <title>Bcy&apos;s Blog</title>
-    <updated>2022-04-03T07:34:43.597Z</updated>
+    <updated>2022-04-03T08:04:37.430Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://BCY2022.github.io"/>
     <link rel="self" href="https://BCY2022.github.io/atom.xml"/>
@@ -10,6 +10,37 @@
     <logo>https://BCY2022.github.io/images/avatar.png</logo>
     <icon>https://BCY2022.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Bcy&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[洛谷CF126A 题解]]></title>
+        <id>https://BCY2022.github.io/post/luo-gu-cf126a-ti-jie/</id>
+        <link href="https://BCY2022.github.io/post/luo-gu-cf126a-ti-jie/">
+        </link>
+        <updated>2022-04-03T07:55:17.000Z</updated>
+        <content type="html"><![CDATA[<p>今天，我们来看一下CF126A。<br>
+先上原题：</p>
+<pre><code>浴缸里有一个冷水龙头和一个热水龙头，流出的水温分别是t1和t2；
+它们的流速最大是x1和x2个单位每秒，并且可以调节到0至最大流速间的
+任意一个整数速度。假如两个龙头的流速分别是y1和y2，那么最终的水温就是
+t = ((t1y1)+(t2y2))/(y1+y2)
+现在，你要安排两个水龙头的流速，满足： 1、最终水温不低于t0；
+2、在满足上一条的前提下，水温尽可能接近t0； 3、在满足上一条的前提下，
+总流速尽可能大。
+1 &lt;= t1 &lt;= t0 &lt;= t2 &lt;= 10^6;1 &lt;= x1, x2 &lt;= 10^6
+</code></pre>
+<p>看完这题你想到了什么？<br>
+对，枚举。<br>
+我们可以枚举y1 和 y2，用for循环嵌套就行。如：</p>
+<pre><code>for(int y1=0;y1&lt;=x1;y1++)
+   for(int y2=0;y2&lt;=x2;y2++)
+	{
+		/*
+			插入计算
+		*/
+	}
+</code></pre>
+<p>然后定义一个max，为适合值；再有一个a，计算与t0的差，有小于它的就刷新，最后得到max。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello World!]]></title>
         <id>https://BCY2022.github.io/post/hello-world/</id>
